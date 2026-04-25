@@ -1,0 +1,143 @@
+body {
+  background: linear-gradient(to right, #fdfdfb, #d2dfd4); /* Degradado de fondo */
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  margin: 20px;                /* Márgenes alrededor */
+  color: #333;                 /* Color del texto */
+   margin: 0; /* Quita márgenes por defecto */
+}
+
+h2 {
+                      /* Color del encabezado */
+    text-align: center;   /* Alineación del texto */         /* Fuente del texto */
+}
+h2 a {
+    color: rgb(214, 183, 183);                   /* Color del encabezado */
+    text-align: center;   /* Alineación del texto */
+    font-family: cursive;          /* Fuente del texto */
+}
+p { 
+    text-shadow: 03px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra del texto */
+    color: #b5b5c7;             /* Color del párrafo */
+    font-size: 25px;            /* Tamaño de la fuente */
+    line-height: 1.5;           /* Altura de línea */
+    text-align: center;    
+    font-family: cursive;    /* Alineación del texto */
+}
+#nombre {
+    background-color: bisque;
+    color: #2ec1d4;             /* Color del párrafo */
+    font-size: 14px;            /* Tamaño de la fuente */
+    line-height: 1.5;           /* Altura de línea */
+    text-align:center;    
+    margin-bottom: 15px;       /* Espacio inferior */
+    font-family: cursive;    /* Alineación del texto */
+   
+}
+#nombre::placeholder {
+    color: #2ec1d4;             /* Color del texto del placeholder */
+    font-size: 14px;            /* Tamaño de la fuente del placeholder */
+    font-family: cursive;       /* Fuente del texto del placeholder */
+}
+#email {
+    background-color: bisque;
+    color: #2ec1d4;             /* Color del párrafo */
+    font-size: 14px;            /* Tamaño de la fuente */
+    line-height: 1.5;           /* Altura de línea */
+    text-align: center;    
+    font-family: cursive; 
+    margin-bottom: 15px;   /* Alineación del texto */
+}
+#email::placeholder {
+    color:#2ec1d4;             /* Color del texto del placeholder */
+    font-size: 14px;            /* Tamaño de la fuente del placeholder */
+    font-family: cursive;       /* Fuente del texto del placeholder */
+}
+ 
+
+#fecha {
+    background-color: bisque;
+    color: #2ec1d4;             /* Color del párrafo */
+    font-size: 14px;            /* Tamaño de la fuente */
+    line-height: 1.5;           /* Altura de línea */
+    text-align: justify;    
+    font-family: cursive; 
+    width: 270px;
+}
+
+/* Estilo general del formulario */
+form.formato-01 {
+  width: 300px;              /* ancho fijo del formulario */
+  margin: 50px auto;         /* margen arriba/abajo y centrado horizontal */
+  padding: 20px;             /* espacio interno */
+  background-color: #f4f4f4; /* color de fondo del bloque */
+  border-radius: 8px;        /* bordes redondeados */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* sombra */
+  display: flex;
+  flex-direction: column;    /* inputs uno debajo del otro */
+  gap: 15px;                 /* separación automática entre los campos */
+}
+
+/* Estilo de los inputs */
+form.formato-01 input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo del botón */
+form.formato-01 #boton {
+  background-color: #2ec1d4;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form.formato-01 #boton:hover {
+  background-color: #1a9aa8; /* color más oscuro al pasar el mouse */
+}
+#documento {
+    background-color: bisque;
+    color: #2ec1d4;             /* Color del párrafo */
+    font-size: 14px;            /* Tamaño de la fuente */
+    line-height: 1.5;           /* Altura de línea */
+    text-align: center;    
+    font-family: cursive; 
+    margin-bottom: 15px;   /* Alineación del texto */
+}
+#documento::placeholder {
+    color: #2ec1d4;             /* Color del texto del placeholder */
+    font-size: 14px;            /* Tamaño de la fuente del placeholder */
+    font-family: cursive;       /* Fuente del texto del placeholder */
+}
+#numero_documento {
+    background-color: bisque;
+    color: #2ec1d4;             /* Color del párrafo */
+    font-size: 14px;            /* Tamaño de la fuente */
+    line-height: 1.5;           /* Altura de línea */
+    text-align: center;    
+    font-family: cursive; 
+    margin-bottom: 15px;   /* Alineación del texto */
+}
+#numero_documento::placeholder {
+    color: #2ec1d4;             /* Color del texto del placeholder */
+    font-size: 14px;            /* Tamaño de la fuente del placeholder */
+    font-family: cursive;       /* Fuente del texto del placeholder */
+}
+label {
+    color: #2ec1d4;             /* Color del texto de las etiquetas */
+    font-size: 14px;            /* Tamaño de la fuente de las etiquetas */
+    font-family: cursive;       /* Fuente del texto de las etiquetas */
+    margin-bottom: 5px;         /* Espacio inferior entre etiqueta y campo */
+}
+#tipo-documento {
+    cursor: pointer;
+    background-color: rgb(244, 242, 240);
+    color: #2ec1d4;             /* Color del párrafo */
+    font-size: 14px;            /* Tamaño de la fuente */
+    line-height: 1.5;           /* Altura de línea */
+    text-align: center;    
+    font-family: cursive; 
+    margin-bottom: 15px;   /* Alineación del texto */
+}

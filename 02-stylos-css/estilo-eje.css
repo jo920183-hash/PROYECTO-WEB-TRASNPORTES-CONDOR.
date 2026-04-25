@@ -1,0 +1,38 @@
+
+h1{
+    text-shadow: 2px 9px 3px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    color: #348cf0;             /* Color del encabezado */
+    text-align: center;         /* Alineación del texto */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;            /* Tamaño de la fuente del encabezado */
+}
+.contenedor-principal {
+    margin: 100px 100px 100px 100px; /* Margen alrededor del contenedor -  esta es laforma de abreviar los margin en los 4 lados */
+    display: flex;          /* Coloca elementos en fila */
+    gap: 20px;             /* Espacio entre elementos */
+}
+.contenedor-1 h2{
+    border:solid 1px black;
+    background-color: #2ec1d4;
+}
+h2{
+    padding-left: 90px;
+}
+.contenedor-2 h2{
+    border:solid 1px black;
+    background-color: #2ec1d4;
+}
+ .contenedor-1 ol {
+    border:solid 1px black;
+    border-radius: 10px;
+    padding: 50px;      /* con esta propiedad le doy padding a todos los 4 lados*/
+    /* padding: 20px 30px 40px 10px; = esta es la forma de abreviar los padding a los cuatro lado*/
+    margin-left: 30px;
+    background-color: rgb(215, 178, 140);
+    margin-right: 30px;
+}
+.contenedor-1{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+   
