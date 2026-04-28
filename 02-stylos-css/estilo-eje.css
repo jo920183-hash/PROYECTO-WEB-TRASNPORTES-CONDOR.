@@ -5,6 +5,7 @@ h1{
     text-align: center;         /* Alineación del texto */
     font-family: 'Times New Roman', Times, serif;
     font-size: 90px;            /* Tamaño de la fuente del encabezado */
+    
 }
 .contenedor-principal {
     margin: 100px 100px 100px 100px; /* Margen alrededor del contenedor -  esta es laforma de abreviar los margin en los 4 lados */
@@ -17,6 +18,7 @@ h1{
 }
 h2{
     padding-left: 90px;
+    border-radius: 50px 0 0 0;
 }
 .contenedor-2 h2{
     border:solid 1px black;
