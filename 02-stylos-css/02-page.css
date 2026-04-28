@@ -4,7 +4,7 @@ body {
   margin: 20px;                /* Márgenes alrededor */
   color: #333;                 /* Color del texto */
   margin: 0; /* Quita márgenes por defecto */
-  background-image: url(../03-imagenes/logo\ trasnportes\ condor.png);
+  background-image: url(log-transporte-condor.png); /* Imagen de fondo */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
