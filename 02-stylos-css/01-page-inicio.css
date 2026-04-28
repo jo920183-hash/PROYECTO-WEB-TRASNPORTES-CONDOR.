@@ -1,15 +1,29 @@
 body {
   background: linear-gradient( to right, #fdfdfb, #d2dfd4); /* Degradado de fondo */
   font-family: Arial, sans-serif; /* Fuente del texto */
-  margin: 20px; /* Márgenes alrededor */
+  background-image: url(/03-imagenes/logo\ trasnportes\ condor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0; /* elimina márgenes por defecto */
+  min-height: 100vh; 
+  background-attachment: fixed;
+
 }
 h1 {
-  background-color: rgb(240, 247, 247);
+  margin-bottom: 100px;
   text-shadow: 2px 8px 3px rgba(0, 0, 0, 0.5); /* Sombra del texto */
   color: #0f50dc; /* Color del encabezado */
   text-align: center; /* Alineación del texto */
   font-family: "Times New Roman", Times, serif;
   font-size: 90px; /* Tamaño de la fuente del encabezado */
+  padding: 20px; /* Espacio para que la imagen se vea *//* Asegura que el encabezado ocupe todo el ancho disponible */
+}
+img{
+    width: 400px;
+    height: 200px;
+    margin: 25px 0 0 10px;
+    border-radius: 0 50px 0 50px;
 }
 .header {
   margin: 0 30px 0 30px;
@@ -118,4 +132,9 @@ label{
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Sombra del texto */
     color: #080808; /* Color del texto */
     text-align: center;
+}
+img{
+    width: 400px;
+    height: 200px;
+    margin: 25px 0 0 10px;
 }

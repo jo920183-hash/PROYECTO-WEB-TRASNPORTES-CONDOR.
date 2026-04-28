@@ -1,6 +1,13 @@
 body{
     background: linear-gradient(to right, #fdfdfb, #d2dfd4);
     font-family:'Times New Roman', Times, serif;
+     background-image: url(/03-imagenes/logo\ trasnportes\ condor.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     margin: 0; /* elimina márgenes por defecto */
+     min-height: 100vh; 
+     background-attachment: fixed;
 }
 header{
     display: flex;

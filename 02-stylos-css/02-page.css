@@ -3,7 +3,14 @@ body {
   font-family: Arial, sans-serif; /* Fuente del texto */
   margin: 20px;                /* Márgenes alrededor */
   color: #333;                 /* Color del texto */
-   margin: 0; /* Quita márgenes por defecto */
+  margin: 0; /* Quita márgenes por defecto */
+  background-image: url(/03-imagenes/logo\ trasnportes\ condor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0; /* elimina márgenes por defecto */
+  min-height: 100vh; 
+  background-attachment: fixed;
 }
 
 h2 {
