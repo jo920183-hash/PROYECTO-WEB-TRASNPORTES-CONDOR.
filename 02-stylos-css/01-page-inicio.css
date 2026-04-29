@@ -1,7 +1,7 @@
 body {
   background: linear-gradient( to right, #fdfdfb, #d2dfd4); /* Degradado de fondo */
   font-family: Arial, sans-serif; /* Fuente del texto */
-  background-image: url(../03-imagenes/log-trasnportes-condor.png); /* Imagen de fondo */
+  background-image: url(03-imagenes/log-trasnportes-condor.png); /* Imagen de fondo */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,8 +20,8 @@ h1 {
   padding: 20px; /* Espacio para que la imagen se vea *//* Asegura que el encabezado ocupe todo el ancho disponible */
 }
 img{
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height:auto;
     margin: 25px 0 0 10px;
     border-radius: 0 50px 0 50px;
 }
@@ -62,7 +62,7 @@ nav ul li a {
   border-radius: 10px;     /* Bordes redondeados */
   text-decoration: none; /* Elimina el subrayado de los enlaces */
   color: #333; /* Color de los enlaces */
-  font-size: 20px;
+  font-size: 35px;
 }
 nav ul li a:hover {
   color: #2ec1d4; /* Color de los enlaces al pasar el mouse */
