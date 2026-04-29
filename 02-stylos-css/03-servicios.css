@@ -1,82 +1,87 @@
-body{
-    background: linear-gradient(to right, #fdfdfb, #d2dfd4);
-    font-family:'Times New Roman', Times, serif;
-     background-image: url(../03-imagenes/log-trasnportes-condor.png);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     margin: 0; /* elimina márgenes por defecto */
-     min-height: 100vh; 
-     background-attachment: fixed;
-}
-header{
-  
-    gap: 20px;
-    padding: 20px;
+body {
+  background: linear-gradient(to right, #fdfdfb, #d2dfd4);
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(../03-imagenes/log-trasnportes-condor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
-h1{
-    font-size: 50px;
-    color: rgb(96, 94, 219);
-    text-shadow: 9px 1px 3px rgba(0, 0, 0, 0.5);
-    font-size: 80px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    
+header {
+  gap: 20px;
+  padding: 20px;
 }
-.contenedor{
-    display: flex;
-    gap: 20px;
-   align-items: flex-start;
-    margin: 40px;
-    width: 90%; /* Que ocupen casi todo el ancho del celular */
-    max-width: 400px;
 
+h1 {
+  font-size: 80px;
+  color: rgb(96, 94, 219);
+  text-shadow: 9px 1px 3px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.servicios{
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0px 0px 0px px rgba(0, 0, 0, 0.1);
-    font-size: 25px;
-}
-.servicios h2{
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    color: #81a4ed;
-    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
-}
-.servicios p{
-    font-family: 'Times New Roman', Times, serif;
-    color: #333;
-    line-height: 1.6;
-}
-.imagenes{
-    width: 90vh;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 15px 8px 3px rgba(0, 0, 0, 0.1);
-    margin-left: 50vh;
 
+.contenedor {
+  display: flex;              /* coloca servicios e imágenes en fila */
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;            /* permite que bajen si no caben */
+  gap: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
 }
-.imagenes-01{
-    width: 100vh;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 15px 8px 3px rgba(0, 0, 0, 0.1);
-    margin-right: 50vh;
-    width: 80vh;
-    height: auto;
-    margin-top: 20vh;
 
+.servicios {
+  flex: 1 1 400px;            /* bloque flexible, mínimo 400px */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  font-size: 20px;
 }
-.imagenes-02{
-    width: 70vh;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 15px 8px 3px rgba(0, 0, 0, 0.1);
-    margin-left: 50vh;
-    width: 80vh;
-    height: auto;
-    margin-top: 20vh;
 
+.servicios h2 {
+  font-size: 30px;
+  color: #81a4ed;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+}
+
+.servicios p {
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.imagenes,
+.imagenes-01,
+.imagenes-02 {
+  flex: 1 1 250px;            /* bloque flexible para imágenes */
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 15px 8px 3px rgba(0,0,0,0.1);
+  margin: 10px auto;
+}
+
+/* 📱 Ajustes para celular */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .contenedor {
+    flex-direction: column;   /* apila verticalmente */
+    align-items: center;
+  }
+
+  .servicios,
+  .imagenes,
+  .imagenes-01,
+  .imagenes-02 {
+    width: 90%;               /* ocupan casi todo el ancho */
+    max-width: none;
+  }
 }
