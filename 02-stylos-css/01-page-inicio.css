@@ -1,7 +1,7 @@
 body {
   background: linear-gradient( to right, #fdfdfb, #d2dfd4); /* Degradado de fondo */
   font-family: Arial, sans-serif; /* Fuente del texto */
-  background-image: url(log-trasnportes-condor.png); /* Imagen de fondo */
+  background-image: url(/03-imagenes/log-trasnportes-condor.png); /* Imagen de fondo */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -137,4 +137,59 @@ img{
     width: 400px;
     height: 200px;
     margin: 25px 0 0 10px;
+}
+/* --- AJUSTES PARA MÓVILES Y TABLETS --- */
+@media (max-width: 768px) {
+  
+  /* Ajustamos el título para que no se salga de la pantalla */
+  h1 {
+    font-size: 45px; /* Reducimos a la mitad */
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+
+  /* El contenedor de imágenes ahora se pondrá en columna */
+  .contenedor {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .contenedor img {
+    width: 90%; /* Que ocupen casi todo el ancho del celular */
+    max-width: 400px;
+  }
+
+  /* El menú de navegación se apila verticalmente */
+  nav ul li {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  /* Ajustamos el formulario para que no sea rígido */
+  .formulario {
+    width: 90%; 
+    max-width: 300px;
+  }
+
+  /* Ajustamos los textos de bienvenida */
+  .bienvenida h2 {
+    font-size: 24px;
+  }
+  
+  .bienvenida p {
+    margin: 0 15px 20px 15px;
+    font-size: 18px;
+  }
+
+  /* Ajuste de los inputs para que no se desborden */
+  input {
+    width: 100%; /* Ocupa el total del contenedor del formulario */
+    box-sizing: border-box; /* Evita que el padding sume al ancho */
+  }
+
+  .botton {
+    margin: 10px auto; /* Centramos el botón */
+    width: 100%;
+  }
 }
