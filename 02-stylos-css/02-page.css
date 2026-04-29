@@ -14,7 +14,7 @@ body {
 }
 
 h2 {
-                      /* Color del encabezado */
+     color: rgba(0,0,0,0.2);
     text-align: center;   /* Alineación del texto */         /* Fuente del texto */
 }
 h2 a {
@@ -24,8 +24,8 @@ h2 a {
 }
 p { 
     text-shadow: 03px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra del texto */
-    color: #b5b5c7;             /* Color del párrafo */
-    font-size: 25px;            /* Tamaño de la fuente */
+    color: #0b0bf4;             /* Color del párrafo */
+    font-size: 60px;            /* Tamaño de la fuente */
     line-height: 1.5;           /* Altura de línea */
     text-align: center;    
     font-family: cursive;    /* Alineación del texto */
@@ -147,4 +147,8 @@ label {
     text-align: center;    
     font-family: cursive; 
     margin-bottom: 15px;   /* Alineación del texto */
+}
+.formato-01 {
+    width: 90%; /* Que ocupen casi todo el ancho del celular */
+    max-width: 400px;
 }
