@@ -1,7 +1,7 @@
 body {
   background: linear-gradient( to right, #fdfdfb, #d2dfd4); /* Degradado de fondo */
   font-family: Arial, sans-serif; /* Fuente del texto */
-  background-image: url(/log-trasnportes-condor.png); /* Imagen de fondo */
+  background-image: url(../log-trasnportes-condor.png); /* Imagen de fondo */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
