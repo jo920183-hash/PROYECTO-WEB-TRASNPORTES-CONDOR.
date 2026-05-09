@@ -1,14 +1,23 @@
 body {
-  background: linear-gradient( to right, #fdfdfb, #d2dfd4); /* Degradado de fondo */
+  background: linear-gradient(
+    to right,
+    #fdfdfb,
+    #d2dfd4
+  ); /* Degradado de fondo */
   font-family: Arial, sans-serif; /* Fuente del texto */
-  background-image: url(../03-imagenes/log-trasnportes-condor.png); /* Imagen de fondo */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url(../03-imagenes/log-trasnportes-condor.png); /* Imagen de fondo Coloca una
+   imagen de fondo (en este caso, el logo de Transportes Cóndor).👉 Se superpone al degradado, por 
+   lo que ambos pueden combinarse. */
+  background-repeat: no-repeat; /*Evita que la imagen se repita en mosaico.👉 Solo se muestra una vez.*/
+  background-position: center; /* Centra la imagen de fondo en el contenedor.👉 Muy útil para logos 
+  o imágenes principales.*/
+  background-size: cover; /*Escala la imagen para que cubra todo el área disponible, manteniendo proporciones.
+👉 Puede recortar partes de la imagen si no encaja exactamente.*/
   margin: 0; /* elimina márgenes por defecto */
-  min-height: 100vh; 
-  background-attachment: fixed;
-
+  min-height: 100vh; /*Asegura que el contenedor tenga al menos la altura completa de la ventana del navegador 
+  (viewport height).👉 Garantiza que el fondo cubra toda la pantalla aunque el contenido sea pequeño*/
+  background-attachment: fixed; /*Hace que la imagen de fondo quede fija mientras se hace scroll.
+👉 Da un efecto de “parallax” sencillo: el contenido se mueve, pero el fondo no.*/
 }
 h1 {
   margin-bottom: 100px;
@@ -17,13 +26,14 @@ h1 {
   text-align: center; /* Alineación del texto */
   font-family: "Times New Roman", Times, serif;
   font-size: 90px; /* Tamaño de la fuente del encabezado */
-  padding: 20px; /* Espacio para que la imagen se vea *//* Asegura que el encabezado ocupe todo el ancho disponible */
+  padding: 20px; /* Espacio para que la imagen se vea */ /* Asegura que el encabezado ocupe todo 
+  el ancho disponible */
 }
-img{
-    width: 100%;
-    height:auto;
-    margin: 25px 0 0 10px;
-    border-radius: 0 50px 0 50px;
+img {
+  width: 100%;
+  height: auto;
+  margin: 25px 0 0 10px;
+  border-radius: 0 50px 0 50px;
 }
 .header {
   margin: 0 30px 0 30px;
@@ -31,7 +41,10 @@ img{
   justify-content: center;
   padding: 20px; /* Espacio interno del encabezado */
   text-align: center; /* Alineación del texto del encabezado */
-  background: linear-gradient( #29c6f5, #d0cae8 ); /* Degradado de fondo del encabezado */
+  background: linear-gradient(
+    #29c6f5,
+    #d0cae8
+  ); /* Degradado de fondo del encabezado */
   box-shadow: 0px 0px 0px px rgba(0, 0, 0, 0.1); /* Sombra del encabezado */
 }
 .contenedor {
@@ -58,8 +71,8 @@ nav ul li {
 }
 nav ul li a {
   padding: 5px 5px 5px 5px;
-  border: 2px solid #aac1f3;  /* Borde visible */
-  border-radius: 10px;     /* Bordes redondeados */
+  border: 2px solid #aac1f3; /* Borde visible */
+  border-radius: 10px; /* Bordes redondeados */
   text-decoration: none; /* Elimina el subrayado de los enlaces */
   color: #333; /* Color de los enlaces */
   font-size: 35px;
@@ -87,11 +100,11 @@ nav ul li a:hover {
   color: #080808; /* Color del texto */
 }
 input {
-    width: 250px; /* Ancho completo para los campos de entrada */
-    padding: 10px; /* Espacio interno para los campos de entrada */
-    border-radius: 5px; /* Bordes redondeados para los campos de entrada */
-    border: 1px solid #ccc; /* Borde de los campos de entrada */
-    margin-bottom: 10px; /* Espacio entre los campos de entrada */
+  width: 250px; /* Ancho completo para los campos de entrada */
+  padding: 10px; /* Espacio interno para los campos de entrada */
+  border-radius: 5px; /* Bordes redondeados para los campos de entrada */
+  border: 1px solid #ccc; /* Borde de los campos de entrada */
+  margin-bottom: 10px; /* Espacio entre los campos de entrada */
 }
 input:hover {
   border: 2px solid #007bff; /* azul */
@@ -103,38 +116,37 @@ input:hover {
   width: 300px; /* Ancho fijo para el formulario */
   margin: 20px auto; /* Centra el formulario horizontalmente */
 }
-footer{
-    margin: 100px 0 20px 10px;
+footer {
+  margin: 100px 0 20px 10px;
 }
-label{
-    margin: 0 0 5px 0;
-    color: #080808;
-    font-family: "Times New Roman", Times, serif;
-    display: block;
-    font-size: 20px;
+label {
+  margin: 0 0 5px 0;
+  color: #080808;
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  font-size: 20px;
 }
-.botton{
-    width: 150px;
-    margin: 10px 0 0 100px;
-    display: block;
-    background-color: #2ec1d4; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none; /* Elimina el borde del botón */
-    padding: 10px 20px; /* Espacio interno del botón */
-    border-radius: 5px; /* Bordes redondeados para el botón */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+.botton {
+  width: 150px;
+  margin: 10px 0 0 100px;
+  display: block;
+  background-color: #2ec1d4; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  padding: 10px 20px; /* Espacio interno del botón */
+  border-radius: 5px; /* Bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 .botton:hover {
-    background-color: #3735d2; /* Color de fondo del botón al pasar el mouse */
-
+  background-color: #3735d2; /* Color de fondo del botón al pasar el mouse */
 }
-.formulario h2{
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Sombra del texto */
-    color: #080808; /* Color del texto */
-    text-align: center;
+.formulario h2 {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+  color: #080808; /* Color del texto */
+  text-align: center;
 }
-img{
-    width: 400px;
-    height: 200px;
-    margin: 25px 0 0 10px;
+img {
+  width: 400px;
+  height: 200px;
+  margin: 25px 0 0 10px;
 }
